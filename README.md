@@ -41,11 +41,11 @@ Be sure to sync and lock so that new modules or versions are captured in the Pip
 
 # Run it
 
-`cd ~/git` (or where you clone your git repos
+`cd ~/git` (or where you clone your git repos)
 
-`git clone <ssh or https link to this repo. Named: click_cli>`
+`git clone ... ` <include the ssh or https link to this repo>
 
-`cd click_cli` (Running `python --version` here expect to see the same version as mentioned in `.python-version`, check pyenv install if not)
+`cd click_cli` (change directoy to the cloned repo. Running `python --version` here expect to see the same version as mentioned in `.python-version`, check pyenv install if not)
 
 `pipenv install` (will setup the dependencies required)
 
