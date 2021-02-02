@@ -1,12 +1,15 @@
 ### Setup
 ## Project Requirements
-pyenv - to manage python versions
-pipenv - to manage pip dependencies
 
-_breakdown_
-`.python-version` in the root of a folder tells pyenv what version of python to use
+**pyenv** - to manage python versions
 
-`Pipfile` and `Pipfile.lock` are used by pipenv to manage dependencies. `pipenv install --system` will install these dependencies on your system versions of python and pip.
+**pipenv** - to manage pip dependencies
+
+_basic breakdown of these two_
+
+`.python-version` in the root of a folder tells **pyenv** what version of python to use
+
+`Pipfile` and `Pipfile.lock` are used by **pipenv** to manage dependencies. `pipenv install --system` will install these dependencies on your system versions of python and pip.
 
 ## Setup and usage
 
