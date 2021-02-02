@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+import click
+from utils import *
+
+@click.group(help="Demo of a click CLI tool using modules")
+def cli():
+   pass 
+
+# Explicit listing of all the commands that are exposed
+# e.g. cli.add_command(module_name.function_name)
+cli.add_command(helloworld.hello)
+
+
+if __name__ == "__main__":
+    cli()
