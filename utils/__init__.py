@@ -6,7 +6,7 @@ list_of_files = [ f for f in os.listdir(os.path.dirname(__file__))\
                              if not f.startswith('_')\
                              and not f.startswith('.')\
                              and f.endswith('.py')\
-                             and os.path.isfile ]
+                             and os.path.isfile(f) ]
 
 module_list = []
 # drop the .py extension from the file list and populate the module_list
